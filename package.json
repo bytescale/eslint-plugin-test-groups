@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-test-groups",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Bytescale <hello@bytescale.com> (https://www.bytescale.com)",
   "description": "Ensures tests are marked with a '@group' doc comment.",
   "license": "MIT",

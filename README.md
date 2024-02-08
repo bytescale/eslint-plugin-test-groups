@@ -17,10 +17,14 @@ parserOptions:
   project: "./tsconfig.json"
 plugins:
   - "@typescript-eslint"
-  - "return-types-object-literals" # ← Add this
+  - "test-groups" # ← Add this
 rules:
   # ↓ And this:
-  "return-types-object-literals/require-groups-for-tests": error
+  "test-groups/require-groups-for-tests":
+    - error
+    - groupWhitelist:
+        - "some-test-group"
+        - "another-test-group"
 ```
 
 ### Examples
